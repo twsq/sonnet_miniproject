@@ -1,7 +1,7 @@
 '''
-Created on Feb 22, 2017
-
-@author: PreethiKP
+This file generates a sonnet, haiku, and limerick by preprocessing a set of sonnets 
+from Shakespeare and Spenser to extract out sequences of words, training HMMs using 
+semisupervised learning, and using the HMMs to generate the poems.
 '''
 
 import nltk
